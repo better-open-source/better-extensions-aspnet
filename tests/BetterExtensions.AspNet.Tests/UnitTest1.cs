@@ -1,6 +1,6 @@
 using NUnit.Framework;
 
-namespace BetterExtensions.Tests
+namespace BetterExtensions.AspNet.Tests
 {
     public class Tests
     {

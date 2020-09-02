@@ -1,9 +1,9 @@
 <Project>
 
     <PropertyGroup>
-        <Title>BetterExtensions</Title>
+        <Title>BetterExtensions.AspNet</Title>
         <Authors>iTKerry</Authors>
-        <PackageDescription>BetterExtensions just to make your coding process a little bit better.</PackageDescription>
+        <PackageDescription>BetterExtensions.AspNet just to make your coding process a little bit better.</PackageDescription>
         <Copyright>Oleksandr 'iTKerry' Katrynets</Copyright>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <PackageTags>extensions</PackageTags>

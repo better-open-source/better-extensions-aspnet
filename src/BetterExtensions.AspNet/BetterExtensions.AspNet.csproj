@@ -2,6 +2,7 @@
 
     <PropertyGroup>
         <TargetFramework>netcoreapp3.1</TargetFramework>
+        <PackageIconUrl>https://github.com/itkerry/better-extensions-aspnet/raw/master/icon.png</PackageIconUrl>
     </PropertyGroup>
 
 </Project>

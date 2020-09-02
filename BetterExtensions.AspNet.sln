@@ -28,9 +28,9 @@ ProjectSection(SolutionItems) = preProject
 	icon.png = icon.png
 EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetterExtensions", "src\BetterExtensions\BetterExtensions.csproj", "{205D611C-C87B-48DA-A690-7E1C92E8671D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetterExtensions.AspNet", "src\BetterExtensions.AspNet\BetterExtensions.AspNet.csproj", "{205D611C-C87B-48DA-A690-7E1C92E8671D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetterExtensions.Tests", "tests\BetterExtensions.Tests\BetterExtensions.Tests.csproj", "{F7202A7A-0058-4E98-885D-FAA993D6171C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetterExtensions.AspNet.Tests", "tests\BetterExtensions.AspNet.Tests\BetterExtensions.AspNet.Tests.csproj", "{F7202A7A-0058-4E98-885D-FAA993D6171C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
