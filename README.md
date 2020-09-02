@@ -7,11 +7,11 @@
     <a href="https://github.com/better-open-source/better-extensions/blob/master/LICENSE">
         <img alt="license" src="https://img.shields.io/github/license/mashape/apistatus.svg" />
     </a>
-    <a href="https://www.nuget.org/packages/BetterExtensions/">
-        <img alt="nuget-version" src="https://img.shields.io/nuget/v/BetterExtensions.svg" />
+    <a href="https://www.nuget.org/packages/BetterExtensions.AspNet/">
+        <img alt="nuget-version" src="https://img.shields.io/nuget/v/BetterExtensions.AspNet.svg" />
     </a>
-    <a href="https://www.nuget.org/packages/BetterExtensions/">
-        <img alt="nuget-downloads" src="https://img.shields.io/nuget/dt/BetterExtensions.svg" />
+    <a href="https://www.nuget.org/packages/BetterExtensions.AspNet/">
+        <img alt="nuget-downloads" src="https://img.shields.io/nuget/dt/BetterExtensions.AspNet.svg" />
     </a>
 </p>
 
