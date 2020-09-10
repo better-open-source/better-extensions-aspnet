@@ -12,18 +12,16 @@ namespace BetterExtensions.AspNet.HostedServices
     {
         private Timer _timer;
 
-        private readonly IServiceProvider _services;
-
         protected readonly ILogger<T> _logger;
+
+        private readonly IServiceScopeFactory _scopeFactory;
 
         protected virtual TimeSpan DueTime => TimeSpan.Zero;
         protected abstract TimeSpan Period { get; }
 
-        protected TimedHostedService(IServiceProvider services, ILogger<T> logger)
-        {
-            _services = services;
-            _logger = logger;
-        }
+        protected TimedHostedService(ILogger<T> logger, IServiceScopeFactory scopeFactory) => 
+            (_logger,_scopeFactory) = 
+            (logger,scopeFactory);
 
         public Task StartAsync(CancellationToken cancellationToken)
         {
@@ -35,10 +33,8 @@ namespace BetterExtensions.AspNet.HostedServices
         {
             try
             {
-                using (var scope = _services.CreateScope())
-                {
-                    await JobAsync(scope);
-                }
+                using var scope = _scopeFactory.CreateScope();
+                await JobAsync(scope);
             }
             catch (Exception e)
             {
