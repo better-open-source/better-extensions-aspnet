@@ -24,3 +24,5 @@
 [build-master-badge]: https://dev.azure.com/better-open-source/better-extensions/_apis/build/status/BetterExtensions.AspNet?branchName=master
 [build-develop-badge]: https://dev.azure.com/better-open-source/better-extensions/_apis/build/status/BetterExtensions.AspNet?branchName=develop
 [build]: https://dev.azure.com/better-open-source/better-extensions/_build?definitionId=5
+
+## Usage
