@@ -1,7 +1,7 @@
 <p align="center">
     <img width="100px" src="https://github.com/itkerry/better-extensions-aspnet/raw/master/icon.png" align="center" alt="GitHub Readme Stats" />
     <h1 align="center">BetterExtensions | ASP.NET Core</h1>
-    <p align="center">Get extensions for your ASP.NET Core projects. Just to make your coding life a little bit easier</p>
+    <p align="center">Get extensions for your ASP.NET Core projects</p>
 </p>
 <p align="center">
     <a href="https://github.com/better-open-source/better-extensions/blob/master/LICENSE">
