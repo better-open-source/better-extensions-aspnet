@@ -1,5 +1,5 @@
 <p align="center">
-    <img width="100px" src="https://github.com/itkerry/better-extensions-aspnet/raw/master/icon.png" align="center" alt="GitHub Readme Stats" />
+    <img width="100px" src="https://github.com/better-open-source/better-extensions-aspnet/raw/master/icon.png" align="center" alt="GitHub Readme Stats" />
     <h1 align="center">BetterExtensions | ASP.NET Core</h1>
     <p align="center">Get extensions for your ASP.NET Core projects</p>
 </p>
